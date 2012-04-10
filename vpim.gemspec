@@ -1,4 +1,4 @@
-require 'ubygems'
+require 'rubygems'
 require 'pp'
 require 'rake'
 
@@ -16,7 +16,7 @@ end
 spec_vpim = Gem::Specification.new do |s|
   info(s)
   s.name              = "vpim"
-  s.version           = `ruby stamp.rb`
+  s.version           = "12.4.9" # `ruby stamp.rb`
   s.summary           = "iCalendar and vCard support for ruby"
   s.description       = <<'---'
 This is a pure-ruby library for decoding and encoding vCard and iCalendar data
